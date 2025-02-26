@@ -1,0 +1,14 @@
+server:
+  port: 8091 #端口号8091
+eureka:
+  instance:
+    hostname: eureka8091.com  #注册中心的名称
+    ip-address: true
+  client:
+    register-with-eureka: false # 不向euraka注册自己
+    fetch-registry: false # false表示自己端就是注册中心，我的职责就是维护实例，并不需要去检索服务
+    service-url:
+      #defaultZone: http://eureka8001.com:8001/eureka/单机
+      defaultZone: http://eureka8092.com:8092/eureka/,http://eureka8093.com:8093/eureka/ #搭建集群
+  server:
+    enable-self-preservation: false #关闭自我保护机制
