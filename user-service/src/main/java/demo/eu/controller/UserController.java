@@ -1,5 +1,6 @@
 package demo.eu.controller;
 
+import demo.eu.common.BaseResult;
 import demo.eu.entity.User;
 import demo.eu.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -24,8 +25,8 @@ public class UserController {
      * @return 用户
      */
     @GetMapping("/{id}")
-    public User queryById(@PathVariable("id") Long id) {
-        return userService.queryById(id);
+    public BaseResult<User> queryById(@PathVariable("id") Long id) {
+        return BaseResult.success(userService.queryById(id));
     }
 
     @GetMapping("/hello")
