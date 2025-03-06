@@ -27,5 +27,10 @@ public class UserController {
     public User queryById(@PathVariable("id") Long id) {
         return userService.queryById(id);
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
 }
 
