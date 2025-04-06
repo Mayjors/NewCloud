@@ -3,7 +3,7 @@ package demo.eu.algorithm;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class leetcode452 {
+public class Leetcode452 {
     public int findMinArrowShots(int[][] points) {
         Arrays.sort(points, new Comparator<int[]>() {
             public int compare(int[] o1, int[] o2) {

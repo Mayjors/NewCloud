@@ -1,6 +1,6 @@
 package demo.eu.algorithm;
 
-public class leetcode55 {
+public class Leetcode55 {
     public boolean canJump(int[] nums) {
         int n = nums.length;
         int cover = 0;

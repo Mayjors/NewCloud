@@ -2,7 +2,7 @@ package demo.eu.algorithm;
 
 import java.util.Arrays;
 
-public class leetcode134 {
+public class Leetcode134 {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         if (Arrays.stream(gas).sum() < Arrays.stream(cost).sum()){return -1;}
         int n = gas.length;
