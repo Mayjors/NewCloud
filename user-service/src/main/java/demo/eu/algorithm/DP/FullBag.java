@@ -1,3 +1,5 @@
+package demo.eu.algorithm.DP;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
