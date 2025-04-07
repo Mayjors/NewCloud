@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP;
+package demo.eu.algorithm.DP.ZeroOne;
 
 import java.util.Arrays;
 
