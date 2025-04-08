@@ -1,4 +1,4 @@
-package demo.eu.algorithm;
+package demo.eu.algorithm.Greedy;
 
 import java.util.Arrays;
 
