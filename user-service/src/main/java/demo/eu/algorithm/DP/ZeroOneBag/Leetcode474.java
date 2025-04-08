@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP.ZeroOne;
+package demo.eu.algorithm.DP.ZeroOneBag;
 
 import java.util.Arrays;
 //给你一个二进制字符串数组 strs 和两个整数 m 和 n 。

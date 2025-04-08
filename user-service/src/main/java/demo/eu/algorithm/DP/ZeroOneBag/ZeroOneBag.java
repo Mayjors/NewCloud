@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP.ZeroOne;
+package demo.eu.algorithm.DP.ZeroOneBag;
 
 import java.util.Arrays;
 import java.util.Scanner;
