@@ -2,6 +2,9 @@ package demo.eu.algorithm.DP.StockProblem;
 
 import java.util.Arrays;
 
+/**
+ * leetcode123题 2 -> k
+ */
 public class Leetcode188 {
     public int maxProfit(int k, int[] prices) {
         int n = prices.length;

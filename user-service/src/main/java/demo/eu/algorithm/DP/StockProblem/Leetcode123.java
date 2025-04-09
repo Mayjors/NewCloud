@@ -13,6 +13,13 @@ package demo.eu.algorithm.DP.StockProblem;/*
 
 import java.util.Arrays;
 
+/**
+ * dp[i][0]: 第i天无操作
+ * dp[i][1]: 第i天第一次持有股票
+ * dp[i][2]: 第i天第一次不持有股票
+ * dp[i][3]: 第i天第二次持有股票
+ * dp[i][4]: 第i天第二次不持有股票
+ */
 public class Leetcode123 {
     public int maxProfit(int[] prices) {
         int n = prices.length;
