@@ -1,5 +1,8 @@
 package demo.eu.algorithm.Honor;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 背景: linux shell输入中${xxx}表示引用了变量xxx, 若有xxx=hello, aaa=a/${xxx}/, 则aaa=a/hello/
  * 输入:
