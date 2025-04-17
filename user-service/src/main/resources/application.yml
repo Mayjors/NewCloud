@@ -9,6 +9,13 @@ spring:
     password: 219314
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource  #当前数据源操作类型
+  redis:
+    host: localhost
+    port: 6379
+    password: 219314
+    timeout: 10000
+    database: 0
+
 mybatis:
   type-aliases-package: demo.eu.entity
   configuration:
