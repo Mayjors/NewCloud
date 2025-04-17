@@ -37,11 +37,15 @@ public class Question1 {
         putMap(a2, map);
         putMap(a3, map);
 
+        // 取出 nn/${xxx}/mm/${yyy}/ccc
         String s = a4.split("=")[1];
         while (s.split("\\$").length > 1) {
             for (String key : map.keySet()){
                 String value = map.get(key);
+                // 将xxx, rrr, yyy 分别 转成 ${xxx}, ${rrr}, ${yyy}
                 String replace = "${" + key + "}";
+                // 判断 nn/${xxx}/mm/${yyy}/ccc 中有没有上面的字符串
+                // 有则替换成map的value，直到nn/${xxx}/mm/${yyy}/ccc 中没有${}的数字，则结束循环
                 if (s.contains(replace)) {
                     s = s.replace(replace, value);
                 }
