@@ -17,4 +17,41 @@ package demo.eu.algorithm.Honor;
  */
 
 public class Question1 {
+  
+    public static void main(String[] args) {
+        getValue(4);
+    }
+
+  
+   public static String getValue(int num) {
+        String a1 = "xxx=yes${rrr}";
+        String a2 = "rrr=www";
+        String a3 = "yyy=happy";
+        String a4 = "aa=nn/${xxx}/mm/${yyy}/ccc";
+
+        Map<String, String> map = new HashMap<>();
+        putMap(a1, map);
+        putMap(a2, map);
+        putMap(a3, map);
+
+        String s = a4.split("=")[1];
+        while (s.split("\\$").length > 1) {
+            for (String key : map.keySet()){
+                String value = map.get(key);
+                String replace = "${" + key + "}";
+                if (s.contains(replace)) {
+                    s = s.replace(replace, value);
+                }
+            }
+        }
+        System.out.println(s);
+        return s;
+    }
+
+    private static void putMap(String a, Map<String, String> map) {
+        String[] split = a.split("=");
+        if (split.length == 2) {
+            map.put(split[0], split[1]);
+        }
+    }
 }
