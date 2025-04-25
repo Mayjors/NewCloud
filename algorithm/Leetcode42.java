@@ -8,17 +8,15 @@ class Solution {
         int ans = 0;
         int n = height.length;
         for(int i=0; i<n; i++){
-            if (stack.empty()){
-                stack.push(i);
-            }
-            else{
-                while(height[stack.peek()]<height[i]){
-                    t = stack.pop();
-                    if(!stack.empty){
-                        ans += Math.min(height[i], height[stack.peek()]);
-                    }
+            while(!stack.empty() && height[stack.peek()]<height[i]){
+                //System.out.println(stack.peek());
+                int t = stack.pop();
+                if(!stack.empty()){
+                    ans += (Math.min(height[i], height[stack.peek()])-height[t])*(i-stack.peek()-1);
                 }
             }
+            stack.push(i);
         }
+        return ans;
     }
 }
