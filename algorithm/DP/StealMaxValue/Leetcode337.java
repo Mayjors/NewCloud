@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP.StealMaxValue;
+package algorithm.DP.StealMaxValue;
 
 
 /*

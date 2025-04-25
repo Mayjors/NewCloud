@@ -1,4 +1,4 @@
-package demo.eu.algorithm.oppo;
+package algorithm.oppo;
 
 /**
  * 输入：数字n，代表数组的长度

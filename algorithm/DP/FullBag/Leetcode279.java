@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP.FullBag;
+package algorithm.DP.FullBag;
 
 import java.util.Arrays;
 

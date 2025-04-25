@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP.StockProblem;
+package algorithm.DP.StockProblem;
 
 /**
  * 给定一个整数数组prices，其中第  prices[i] 表示第 i 天的股票价格

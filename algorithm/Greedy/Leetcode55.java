@@ -1,4 +1,4 @@
-package demo.eu.algorithm.Greedy;
+package algorithm.Greedy;
 
 public class Leetcode55 {
     public boolean canJump(int[] nums) {

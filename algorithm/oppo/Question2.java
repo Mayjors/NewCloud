@@ -1,4 +1,4 @@
-package demo.eu.algorithm.oppo;
+package algorithm.oppo;
 
 import java.util.HashMap;
 

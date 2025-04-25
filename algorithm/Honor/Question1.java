@@ -1,4 +1,4 @@
-package demo.eu.algorithm.Honor;
+package algorithm.Honor;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ import java.util.Map;
  *       rrr=www
  *       yyy=happy
  *       aa=nn/${xxx}/mm/${yyy}/ccc
- * 输出:  nn/yeswww/mm/happy/ccc
+ * 输出:  nn/www/mm/happy/ccc
  */
 
 public class Question1 {

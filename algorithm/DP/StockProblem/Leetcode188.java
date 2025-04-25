@@ -1,4 +1,4 @@
-package demo.eu.algorithm.DP.StockProblem;
+package algorithm.DP.StockProblem;
 
 import java.util.Arrays;
 

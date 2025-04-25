@@ -1,4 +1,4 @@
-package demo.eu.algorithm.Huawei;
+package algorithm.Huawei;
 
 /**
  * 输入：n m [n个测试用例，m个代码模块]

@@ -1,4 +1,4 @@
-package demo.eu.algorithm.oppo;
+package algorithm.oppo;
 
 /**
  * 输入：
