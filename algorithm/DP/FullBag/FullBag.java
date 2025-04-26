@@ -1,4 +1,4 @@
-package algorithm.DP.FullBag;
+package DP.FullBag;
 
 import java.util.Arrays;
 import java.util.Scanner;

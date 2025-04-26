@@ -4,7 +4,7 @@
  * 返回容器可以储存的最大水量。
  */
 
-class Solution {
+class Leetcode11 {
     public int maxArea(int[] height) {
         int n = height.length;
         int left = 0;
