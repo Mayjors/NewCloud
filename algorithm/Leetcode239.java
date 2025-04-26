@@ -5,7 +5,7 @@ public class Leetcode239 {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
         int ans = nums[0];
-        Deque<Integer> q = new LinkedList<>(); // 队列维护窗口内最大值
+        Deque<Integer> q = new LinkedList<>(); // 队列维护数据降序
         int[] res = new int[n - k + 1];
         int left = 0;
         for (int i = 0; i < n; i++) {
