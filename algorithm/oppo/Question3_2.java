@@ -7,7 +7,7 @@ package oppo;
  *
  * 例:
  * nums1 = [1, 2]
- * nums2 = [2, 3]
+ * nums2 = [3, 4]
  * 输出: 9 (nums1和nums2都可以任意取非空子序列)
  */
 
